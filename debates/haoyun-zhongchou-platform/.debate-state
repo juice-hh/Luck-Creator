@@ -1,0 +1,25 @@
+version: "2.0"
+debate_name: "好运众筹平台产品辩论"
+debate_slug: "haoyun-zhongchou-platform"
+topic: "好运众筹平台：游戏化、零金钱的心理慰藉产品，捐赠者收获福气、受捐者收获运气"
+created_at: "2026-06-22T02:45:34Z"
+lang: "zh"
+workspace_root: "/Users/xixi/Desktop/coding/maomaoyu/happiness/debates"
+perspectives: ["ux", "business"]
+construction_type: "new"
+current_phase: 5
+current_round: 2
+total_phases: 5
+status: "completed"
+research_done: false
+intent_confirmed: true
+intent_confirmed_at: "2026-06-22T02:45:34Z"
+steelman_enabled: false
+phase_statuses:
+  "1": "complete"
+  "2": "complete"
+  "3": "complete"
+  "4": "complete"
+  "5": "complete"
+last_action: "synthesis_complete"
+last_action_at: "2026-06-22T02:45:34Z"
