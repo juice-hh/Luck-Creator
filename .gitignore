@@ -36,9 +36,9 @@ yarn-error.log*
 .env.*.local
 !.env.example
 
-# prisma sqlite（计划 7 接入 Prisma 后生效）
-prisma/dev.db
-prisma/dev.db-journal
+# sqlite 本地数据库（任何位置都不入 git）
+*.db
+*.db-journal
 
 # vercel
 .vercel

@@ -1,0 +1,20 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// 匿名身份锚点。首版仅占位 + 证明数据层连通；发放 token 的逻辑见后续计划。
+model User {
+  id        String   @id @default(cuid())
+  anonId    String   @unique // 匿名标识（cookie 携带）
+  createdAt DateTime @default(now())
+}
